@@ -11,7 +11,7 @@ return [
     |
     */
 
-    'active_theme' => env('ACTIVE_THEME', 'demo'),
+    'active_theme' => env('ACTIVE_THEME', 'rvwaarloos-rvpublic'),
 
     /*
     |--------------------------------------------------------------------------
@@ -53,7 +53,8 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    // 'timezone' => 'UTC',
+    'timezone' => 'Europe/Brussels',
 
     /*
     |--------------------------------------------------------------------------

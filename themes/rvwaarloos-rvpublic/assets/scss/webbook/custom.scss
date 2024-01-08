@@ -1,0 +1,42 @@
+main {
+  padding-top: $header_height;
+}
+
+.bs-component + .bs-component {
+  margin-top: 1rem;
+}
+
+.bs-docs-section .page-header h1 {
+  padding: 2rem 0;
+  font-size: 3rem;
+}
+
+.bs-component .modal {
+  position: relative;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
+  display: block;
+}
+
+.bi {
+   vertical-align: -.125em;
+   fill: currentColor;
+}
+
+.faicon-ico {
+  font-size: 2em;
+  color: $primary;
+}
+
+#theme-switcher {
+  i {
+    display: none;
+  
+    &.active {
+        display: inline;
+      }
+    }
+}
