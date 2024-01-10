@@ -19,4 +19,4 @@ fields:
     permissions: tailor.entry.2dcfff9463ce4c7ea8a9b032bec5ec8a.create
     column:
       type: partial
-      path: "#/artistro08-tailorstartertheme/partials/columns/_icon"
+      path: "#/rv-waarloos-1/partials/columns/_icon"
