@@ -7,4 +7,5 @@ code: 'rvwaarloos1'
 parent: ''
 database: '0'
 form: fields.yaml
-
+require:
+  - "Artistro08.TailorStarterCompanion"
