@@ -1,33 +1,30 @@
 ==
-function onStart()
-{
-    $sections = array();
-    Config::set('sections', $sections);
-
-    $vendors = array();
-    Config::set('vendors', $vendors);
-}
-==
 <!doctype html>
 <html lang="{{ this.app.locale|slice(0,2) }}" {{ pageVars.dark_switch == 'none' ? 'data-bs-theme=' ~ pageVars.dark_mode }} class="h-100">
 <head>
-    {% partial 'site/meta' %}
+
+  <link href="{{ [
+            'assets/scss/webbook.scss'
+        ] | theme }}" rel="stylesheet">
+
+ {% styles %}
 </head>
+
 <body id="top" class="d-flex flex-column h-100">
+
     <header>
         {% partial 'site/navbar' %}
     </header>
-    <main>
-        <h2>default bw</h2>
 
-        {% page %}
-    </main>
+<main>
+{% page %}
+</main>
+
+
     <footer  class="mt-auto">
         {% partial 'site/footer' %}
     </footer>
-    
-    {% framework extras %}
-    {% partial 'site/scripts' %}
 
+{% scripts %}
 </body>
 </html>
