@@ -1,0 +1,25 @@
+tabs:
+    fields:
+        hero_title:
+            tab: Hero
+            label: Hoofdtitel
+            type: text
+            default: Welkom bij de dorpsvereniging van Waarloos
+            comment: 
+            span: row
+            spanClass: "col-sm-6 p-l-0"
+        hero_image:
+            tab: Hero
+            label: Foto
+            type: mediafinder
+            comment: Afbeelding
+            span: row
+            spanClass: "col-sm-6 p-l-0"
+        hero_text:
+            tab: Hero
+            label: Info
+            type: richeditor
+            comment: Korte beschrijving
+            span: full
+            spanClass: "col-sm-6 p-l-0"
+
